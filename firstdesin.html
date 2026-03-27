@@ -3,67 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prashant Portfolio</title>
-
-
+    <title>Prashant Kumar Portfolio</title>
     <link rel="stylesheet" href="cssfile.css">
 </head>
-
 <body>
 
 <header>
-    <h1>NAME</h1>
-    <h2>PRASHANT</h2>
+    <h2>NAME</h2>
+    <h1>PRASHANT</h1>
 </header>
 
 <div class="container">
 
-    <img src="pkr.jpeg" width="200" class="profile-img" alt="image">
+    <div class="profile section">
+        <div>
+            <h3>About Me</h3>
+            <p>B-Tech (Electrical Engineering) student from MMMUT Gorakhpur with strong discipline and teamwork background from Jawahar Navodaya Vidyalaya.</p>
+        </div>
+        <img src="pkr.jpeg" width="200" alt="Profile Image">
+    </div>
 
-    <section>
+    <div class="section">
         <h3>Education</h3>
-        <p>12th from Jawahar Navodaya Vidyalaya, Barabanki</p>
+        <p><strong>12th:</strong> Jawahar Navodaya Vidyalaya, Barabanki</p>
         <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Jawahar_Navodaya_Vidyalaya_logo.png" width="100">
-    </section>
 
-    <section>
-        <p>B.Tech (Electrical Engineering) from MMMUT, Gorakhpur</p>
+        <p><strong>B-Tech (Electrical Engineering):</strong> MMMUT Gorakhpur</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/MMMUT_campus.jpg/1200px-MMMUT_campus.jpg" width="300">
-    </section>
+    </div>
 
-    <section>
+    <div class="section">
         <h3>Address</h3>
         <p>Barabanki, Uttar Pradesh</p>
         <img src="https://lh5.googleusercontent.com/p/AF1QipMi2KFrF3pUS1WfYvmjQ4PiqeWO8kpUOZV7bCUC=w408-h725-k-no" width="200">
-    </section>
-
-    <div class="quote">
-        <h4>Welcome to my first HTML design</h4>
-        <br>
-        <b>"Life is made of ever so many partings welded together."</b>
-        <br><br>
-        <img src="https://blog.hubspot.com/hs-fs/hubfs/famous-quotes-dickens.webp?width=975&height=699&name=famous-quotes-dickens.webp" width="300">
     </div>
 
-    <div class="form-section">
-        <p class="read-text">Read more these types of thoughts</p>
-        <a href="https://blog.hubspot.com/sales/famous-quotes">Read more</a>
+    <div class="section quote">
+        <h3>Favorite Quote</h3>
+        <p class="quote-text">"Life is made of ever so many partings welded together."</p>
+        <img src="https://blog.hubspot.com/hs-fs/hubfs/famous-quotes-dickens.webp?width=975&height=699&name=famous-quotes-dickens.webp" width="300">
+        <p class="read-more-text">Want to read more?</p>
+        <a href="https://blog.hubspot.com/sales/famous-quotes" target="_blank">Read More</a>
+    </div>
 
-        <br><br>
-
-        <textarea name="something for me" placeholder="Please write something for me"></textarea>
-        <br>
-        <input type="submit" value="Submit">
+    <div class="section">
+        <h3>Write Something for Me</h3>
+        <textarea id="userMessage" placeholder="Write your message here..."></textarea>
+        <button onclick="submitMessage()">Submit</button>
+        <p id="response"></p>
     </div>
 
 </div>
 
 <footer>
-    <a href="https://www.instagram.com/prashant_akr?igsh=OGQ5ZDc2ODk2ZA==">Instagram</a>
-    <a href="https://www.facebook.com/profile.php?id=100025239999034">Facebook</a>
-    <a href="https://x.com/Prashant_akr?t=L_KtNAWN9X2BXo7jE9HdYA&s=09">Twitter</a>
-    <a href="https://www.linkedin.com/in/prashant-kumar-2bb90b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+    <h3>Connect with Me</h3>
+    <a href="https://www.instagram.com/prashant_akr?igsh=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=100025239999034" target="_blank">Facebook</a>
+    <a href="https://x.com/Prashant_akr?t=L_KtNAWN9X2BXo7jE9HdYA&s=09" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/in/prashant-kumar-2bb90b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
